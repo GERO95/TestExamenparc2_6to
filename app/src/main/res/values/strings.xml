@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">Examen 2do parcial liss</string>
+
+    //strings para el menu de loguin, ejem la MainActivity
+    <string name="textviewloguin1">Bienvenido, Es Un Placer Contar con usted denuevo.</string>
+    <string name="textviewloguin2">USUARIO</string>
+    <string name="textviewloguin3">CONTRASEÑA</string>
+    <string name="edittextloguin1">Escribe Aqui tu Usuario</string>
+    <string name="edittextloguin2">Escribe Aqui tu contraseña</string>
+    <string name="buttonloguin1">ENTRAR</string>
+
+    //strings para el menu de MENU GENERAL, ejem menugeneral.java
+    <string name="textviewmenu1">Bienvenido USER </string>
+    <string name="textviewmenu2">Te damos la Bienvenida, Una disculpa, el reproductor esta en el menu de la seccion terror, aun no hemos finalizado las otras areas </string>
+    <string name="textviewmenu3">TERROR </string>
+    <string name="textviewmenu4">ACCION </string>
+    <string name="textviewmenu5">CARICATURAS </string>
+    <string name="buttonmenu1">ENTRAR A TERROR </string>
+    <string name="buttonmenu2">ENTRAR A ACCION </string>
+    <string name="buttonmenu3">ENTRAR A CARICATURAS </string>
+    <string name="buttonmenu4">Finalizar </string>
+
+    //strings para el menu de MENU DE BEBIDAS, ejem menubebidas.java
+    <string name="textviewbebidas1">Bienvenido al menu de Terror. </string>
+    <string name="textviewbebidas2">A continuación le mostraremos el siguiente video de muestra </string>
+    <string name="textviewbebidas3">COCA COLA 1LT </string>
+    <string name="textviewbebidas4">HORCHATA 1LT </string>
+    <string name="buttonbebidas1">$20.00 coca </string>
+    <string name="buttonbebidas2">$25.00 horchata </string>
+    <string name="buttonbebidas3">Click para finalizar </string>
+
+    //strings para el menu de MENU DE HAMBURGUESAS, ejem menuhamburguesa.java
+
+    <string name="textviewhamburguesa1">Bienvenido al menu de Hamburguesas. </string>
+    <string name="textviewhamburguesa2">Selecciona dando click en el boton para elegir la hamburguesa de su eleccion, luego de elegir sera redirigido al menu de inicio </string>
+    <string name="textviewhamburguesa3">Normal </string>
+    <string name="textviewhamburguesa4">Deluxe </string>
+    <string name="buttonhamburguesa1">$50.00 normal </string>
+    <string name="buttonhamburguesa2">$80.00 deluxe </string>
+    <string name="buttonhamburguesa3">Click para finalizar </string>
+    <string name="descriphamb1">pan brioche, queso , carne, cebolla, tomate, lechuga batavia. </string>
+    <string name="descriphamb2"> pan brioche, bacon, huevo, queso chédar, carne x2, cebolla roja en aros, tomate, lechuga batavia y pepinillos. </string>
+
+    //strings para el menu de MENU DE PIZZA, ejem menupizza.java
+
+    <string name="textviewpizza1">Bienvenido al menu de Pizzas. </string>
+    <string name="textviewpizza2">Selecciona dando click en el boton para elegir la pizza de su eleccion, luego de elegir sera redirigido al menu de inicio </string>
+    <string name="textviewpizza3">Pizza de pastor </string>
+    <string name="textviewpizza4">Pizza de pepperoni </string>
+    <string name="buttonpizza1">$170.0 pastor</string>
+    <string name="buttonpizza2">$130.0 peperoni </string>
+    <string name="buttonpizza3">Click para finalizar </string>
+    <string name="descrippizza1">Pizza de 3 Ingredientes, carne al pastor, chorizo, cebolla  </string>
+    <string name="descrippizza2">Pizza de 2 Ingredientes, queso mozzarella, pepperoni </string>
+
+    //strings para el menu de menufinalizar, ejem menufinalizar.java
+
+    <string name="textviewfinalizar1">AGRADECEMOS SU COMPRA, VUELVA PRONTO </string>
+    <string name="textviewfinalizar2"> .... </string>
+    <string name="textviewfinalizar3"> Nos veremos pronto! </string>
+    <string name="buttonfinalizar1"> Cerrar  </string>
+
+</resources>

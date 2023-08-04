@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondomenucomida"
+    tools:context=".menugeneral">
+
+    <TextView
+        android:id="@+id/textviewmenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/textviewmenu1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textviewmenu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewmenu2"
+        android:layout_width="398dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/textviewmenu2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textviewmenu3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="239dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="62dp"
+        android:backgroundTint="#121111"
+        android:onClick="ActPizza"
+        android:text="@string/buttonmenu3"
+        app:layout_constraintBottom_toTopOf="@+id/buttonmenu4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonmenu2" />
+
+    <Button
+        android:id="@+id/buttonmenu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="103dp"
+        android:backgroundTint="#121111"
+        android:onClick="ActTerror"
+        android:text="@string/buttonmenu1"
+        app:layout_constraintBottom_toTopOf="@+id/buttonmenu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu2" />
+
+    <TextView
+        android:id="@+id/textviewmenu5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="297dp"
+        android:text="@string/textviewmenu5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu4" />
+
+    <Button
+        android:id="@+id/buttonmenu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="209dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#121111"
+        android:onClick="ActHamburguesa"
+        android:text="@string/buttonmenu2"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu4" />
+
+    <TextView
+        android:id="@+id/textviewmenu4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/textviewmenu4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonmenu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu3" />
+
+    <TextView
+        android:id="@+id/textviewmenu3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="280dp"
+        android:text="@string/textviewmenu3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textviewmenu4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu2" />
+
+    <Button
+        android:id="@+id/buttonmenu4"
+        android:layout_width="220dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="65dp"
+        android:backgroundTint="#121111"
+        android:onClick="ActFinalizar"
+        android:text="@string/buttonmenu4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="88dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/textviewmenu5"
+        app:layout_constraintEnd_toStartOf="@+id/buttonmenu2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu4"
+        app:srcCompat="@drawable/burguerjajae" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="130dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonmenu4"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu5"
+        app:srcCompat="@drawable/pichiacha" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="123dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/textviewmenu4"
+        app:layout_constraintEnd_toStartOf="@+id/buttonmenu1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewmenu3"
+        app:srcCompat="@drawable/vasop" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
